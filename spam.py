@@ -11,7 +11,7 @@ st.image(image,use_column_width=True)
 # Utils
 import joblib 
 
-model = joblib.load(open("git-lfs/india_spam_june.pkl","rb"))
+model = joblib.load(open("india_spam_aug.pkl","rb"))
 
 @st.cache(suppress_st_warning=True)
 
