@@ -11,7 +11,7 @@ st.image(image,use_column_width=True)
 # Utils
 import joblib 
 
-model = joblib.load(open("https://github.com/GagandeepKundi/India-Spam/compare/master?expand=1#diff-052e6ca919c8221873cd977bc803ef1b38d03e19109f58df3048dbf6802c7ec7","rb"))
+model = joblib.load(open("git-lfs/india_spam_june.pkl","rb"))
 
 @st.cache(suppress_st_warning=True)
 
