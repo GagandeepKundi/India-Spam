@@ -2,7 +2,8 @@ import streamlit as st
 
 # EDA Pkgs
 import pandas as pd 
-import numpy as np 
+import numpy as np
+import sklearn
 #Image
 
 from PIL import Image
