@@ -53,7 +53,7 @@ def main():
 		with col3:
 			st.success("Community Bot says")	
 			if confidence_score > 0.7 and prediction=='Spam':
-				st.write('Delete it 👎🏽')
+				st.write('Hide it 👎🏽')
 			if confidence_score > 0.7 and prediction=='Not Spam':
 				st.write('Keep it 👍🏽')
 			if confidence_score < 0.7 and prediction=='Spam':
